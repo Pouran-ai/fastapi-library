@@ -17,5 +17,9 @@ A FastAPI-based backend for a liberary management system , featuring ...
 
  
     ## How to Run
-    1. Run the server:uvicorn main:app --reload
+    1. Install dependencies:
+       '''bash
+       pip install fastapi uvicorn
+    2. Run the server:
+       uvicorn main:app --reload
     
